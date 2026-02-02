@@ -121,6 +121,67 @@ a:hover {
 }
 
 /* ----------------------------------------
+   Landing page additions
+---------------------------------------- */
+
+.hero {
+  text-align: left;
+}
+
+.lead {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+}
+
+.features li {
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+
+.actions {
+  margin-top: 28px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 12px 22px;
+  background: var(--accent);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.cta:hover {
+  opacity: 0.95;
+}
+
+.footer-links {
+  margin-top: 36px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.footer-links a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-links span {
+  margin: 0 8px;
+}
+
+/* ----------------------------------------
    Dark mode (system preference)
 ---------------------------------------- */
 @media (prefers-color-scheme: dark) {
